@@ -35,6 +35,13 @@
       this.button5 = new System.Windows.Forms.Button();
       this.textBox1 = new System.Windows.Forms.TextBox();
       this.button6 = new System.Windows.Forms.Button();
+      this.button7 = new System.Windows.Forms.Button();
+      this.label1 = new System.Windows.Forms.Label();
+      this.label2 = new System.Windows.Forms.Label();
+      this.button8 = new System.Windows.Forms.Button();
+      this.button9 = new System.Windows.Forms.Button();
+      this.button10 = new System.Windows.Forms.Button();
+      this.button11 = new System.Windows.Forms.Button();
       this.SuspendLayout();
       // 
       // button1
@@ -104,11 +111,86 @@
       this.button6.UseVisualStyleBackColor = true;
       this.button6.Click += new System.EventHandler(this.button6_Click);
       // 
+      // button7
+      // 
+      this.button7.Location = new System.Drawing.Point(594, 28);
+      this.button7.Name = "button7";
+      this.button7.Size = new System.Drawing.Size(75, 23);
+      this.button7.TabIndex = 7;
+      this.button7.Text = "button7";
+      this.button7.UseVisualStyleBackColor = true;
+      this.button7.Click += new System.EventHandler(this.button7_Click);
+      // 
+      // label1
+      // 
+      this.label1.AutoSize = true;
+      this.label1.Location = new System.Drawing.Point(711, 33);
+      this.label1.Name = "label1";
+      this.label1.Size = new System.Drawing.Size(35, 13);
+      this.label1.TabIndex = 8;
+      this.label1.Text = "label1";
+      // 
+      // label2
+      // 
+      this.label2.AutoSize = true;
+      this.label2.Location = new System.Drawing.Point(711, 71);
+      this.label2.Name = "label2";
+      this.label2.Size = new System.Drawing.Size(35, 13);
+      this.label2.TabIndex = 9;
+      this.label2.Text = "label2";
+      // 
+      // button8
+      // 
+      this.button8.Location = new System.Drawing.Point(68, 192);
+      this.button8.Name = "button8";
+      this.button8.Size = new System.Drawing.Size(156, 85);
+      this.button8.TabIndex = 10;
+      this.button8.Text = "кнопка 1";
+      this.button8.UseVisualStyleBackColor = true;
+      this.button8.Click += new System.EventHandler(this.button8_Click);
+      // 
+      // button9
+      // 
+      this.button9.Location = new System.Drawing.Point(292, 192);
+      this.button9.Name = "button9";
+      this.button9.Size = new System.Drawing.Size(165, 85);
+      this.button9.TabIndex = 11;
+      this.button9.Text = "кнопка 2";
+      this.button9.UseVisualStyleBackColor = true;
+      this.button9.Click += new System.EventHandler(this.button9_Click);
+      // 
+      // button10
+      // 
+      this.button10.Location = new System.Drawing.Point(68, 319);
+      this.button10.Name = "button10";
+      this.button10.Size = new System.Drawing.Size(178, 100);
+      this.button10.TabIndex = 12;
+      this.button10.Text = "кнопка 3";
+      this.button10.UseVisualStyleBackColor = true;
+      this.button10.Click += new System.EventHandler(this.button10_Click);
+      // 
+      // button11
+      // 
+      this.button11.Location = new System.Drawing.Point(292, 319);
+      this.button11.Name = "button11";
+      this.button11.Size = new System.Drawing.Size(165, 100);
+      this.button11.TabIndex = 13;
+      this.button11.Text = "кнопка 4";
+      this.button11.UseVisualStyleBackColor = true;
+      this.button11.Click += new System.EventHandler(this.button11_Click);
+      // 
       // Form1
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(800, 450);
+      this.Controls.Add(this.button11);
+      this.Controls.Add(this.button10);
+      this.Controls.Add(this.button9);
+      this.Controls.Add(this.button8);
+      this.Controls.Add(this.label2);
+      this.Controls.Add(this.label1);
+      this.Controls.Add(this.button7);
       this.Controls.Add(this.button6);
       this.Controls.Add(this.textBox1);
       this.Controls.Add(this.button5);
@@ -132,6 +214,13 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
     }
 }
 
